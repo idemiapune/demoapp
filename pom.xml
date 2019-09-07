@@ -5,7 +5,7 @@
 
     <groupId>in.pune.pradyroy</groupId>
     <artifactId>demoapp</artifactId>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
     <packaging>jar</packaging>
     <name>Demo App</name>
     <description>A Demo App</description>
@@ -35,7 +35,7 @@
                 <version>1.4.9</version>
                 <configuration>
                     <repository>${docker.image.prefix}/${project.artifactId}</repository>
-                    <tag>2.0</tag>
+                    <tag>3.0</tag>
                 </configuration>
             </plugin>
             <!-- end::plugin[] -->
